@@ -1,0 +1,23 @@
+{
+  "name": "jest-global-bug",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jest": "28",
+    "jest-environment-jsdom": "28",
+    "jest-jasmine2": "28",
+    "jest-mock": "28"
+  },
+  "jest": {
+    "rootDir": "example",
+    "testEnvironment": "jsdom",
+    "clearMocks": true,
+    "testTimeout": 10000
+  }
+}
